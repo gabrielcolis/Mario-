@@ -1,0 +1,63 @@
+footer {
+    flex: 1;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100%;
+    max-width: 1440px;
+}
+.texto-centralizado {
+    margin-top: 15%;
+    text-align: left;
+    margin-left: 39%;
+    margin-bottom: 30%;
+    max-width: 750px;
+}
+
+
+.texto-centralizado p {
+    font-size: 18px;
+    margin: 20px 0 28px;
+    align-items: center;
+    position: relative;
+}
+
+.texto-centralizado h2 {
+    font-size: 24px;
+    margin: 20px 0 28px;
+}
+
+.texto-centralizado div {
+    display: flex;
+    column-gap: 15%;
+}
+
+.texto-centralizado div a, .texto-centralizado div button {
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 3px;
+
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+
+    transform: skew(-10deg);
+}
+
+.fundo {
+
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 50px;
+    position: fixed;
+    bottom: 0;    
+    border-radius: 20px;
+    width: 100vmax;
+    background: linear-gradient(200deg, rgba(10, 12, 16, 0.99) 25%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 89%);
+}
+
